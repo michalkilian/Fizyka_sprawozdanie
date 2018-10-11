@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.10)  11 OCT 2018 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.10)  11 OCT 2018 20:54
 entering extended mode
 **./ZagadnieniaKontrolne.tex
 (ZagadnieniaKontrolne.tex
@@ -920,24 +920,40 @@ File: plytka.png Graphic file (type png)
 <use plytka.png>
 Package pdftex.def Info: plytka.png  used on input line 55.
 (pdftex.def)             Requested size: 161.85428pt x 86.57321pt.
- [2 <./plytka.png>]
-(ZagadnieniaKontrolne.aux) ) 
+<mikro.png, id=17, 337.26pt x 229.85875pt>
+File: mikro.png Graphic file (type png)
+<use mikro.png>
+Package pdftex.def Info: mikro.png  used on input line 62.
+(pdftex.def)             Requested size: 168.62958pt x 114.92908pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+[2 <./plytka.png> <./mikro.png>]
+Overfull \hbox (33.0786pt too wide) has occurred while \output is active
+[] |\T1/ptm/m/sl/12 0.5 Budowa mikroskopu - jak biegnie promie«. Od czego zale»
+y powi¦kszenie obrazu widzianego w mikroskopie?[]
+ []
+
+[3] (ZagadnieniaKontrolne.aux) ) 
 Here is how much of TeX's memory you used:
- 27223 strings out of 492970
- 658554 string characters out of 3143384
+ 27232 strings out of 492970
+ 658644 string characters out of 3143384
  980381 words of memory out of 3000000
- 30622 multiletter control sequences out of 15000+200000
- 31196 words of font info for 51 fonts, out of 3000000 for 9000
+ 30626 multiletter control sequences out of 15000+200000
+ 33804 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,9n,100p,9127b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Mikitex/fonts/enc/dvips/base/8r.enc}<D:/Mikitex
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Mikitex/fonts/type1/urw/helvetic/
-uhvb8a.pfb><D:/Mikitex/fonts/type1/urw/symbol/usyr.pfb><D:/Mikitex/fonts/type1/
-urw/times/utmr8a.pfb><D:/Mikitex/fonts/type1/urw/times/utmr8a.pfb><D:/Mikitex/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on ZagadnieniaKontrolne.pdf (2 pages, 194856 bytes).
+{D:/Mikitex/fonts/enc/dvips/base/8r.enc}<D:/Mik
+itex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Mikitex/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><D:/Mikitex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/
+Mikitex/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Mikitex/fonts/type1/urw/symbol/
+usyr.pfb><D:/Mikitex/fonts/type1/urw/times/utmr8a.pfb><D:/Mikitex/fonts/type1/u
+rw/times/utmr8a.pfb><D:/Mikitex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ZagadnieniaKontrolne.pdf (3 pages, 221328 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
