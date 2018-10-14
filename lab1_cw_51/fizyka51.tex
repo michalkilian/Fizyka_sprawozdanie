@@ -1,0 +1,281 @@
+\documentclass[a4paper,10pt,twoside]{article}
+%\usepackage{amssymb}
+%\usepackage{amsthm}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{caption}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{makecell}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+
+\begin{document}
+	
+	\begin{center}
+		\bgroup
+		\def\arraystretch{1.5}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			EAIiIB & \multicolumn{2}{|c|}{Michał Kilian} & Rok II & \multicolumn{2}{|c|}{Grupa 5a} \\
+			\hline
+			\multicolumn{3}{|c|}{\begin{tabular}{c}Temat: \\ Wahadło proste \end{tabular}} & 
+			\multicolumn{3}{|c|}{\begin{tabular}{c}Numer ćwiczenia: \\ 0 \end{tabular}} \\
+			\hline
+			\begin{tabular}{@{}c@{}}Data wykonania\\10.10.2018r.\end{tabular} & \begin{tabular}{@{}c@{}}Data oddania\\12.10.2018r.\end{tabular} & 
+			\begin{tabular}{c}Zwrot do\\poprawki\\\phantom{data} \end{tabular} & \begin{tabular}{c}Data oddania\\\phantom{data}\end{tabular} &
+			\begin{tabular}{@{}c@{}}Data zaliczenia\\\phantom{data}\end{tabular} & \begin{tabular}{c}Ocena\\\phantom{ocena}\end{tabular} \\[4ex]
+			\hline
+		\end{tabular}
+		\egroup
+	\end{center}
+	
+	\section{Cel ćwiczenia}
+	Zaznajomienie się
+	z typowymi metodami opracowania danych pomiarowych
+	przy wykorzystaniu wyników pomiarów dla wahadła pro
+	stego 
+	
+
+	Wahadło matematyczne to punktowa masa $m$ zawieszona na nieważkiej i nierozciągliwej lince poruszająca w jednorodnym polu grawitacyjnym.
+	W doświadczeniu wykorzystamy bardzo dobre przybliżenie takiego układu jakim jest ciężka metalowa kulka zawieszona na nitce.
+	
+	Aby znacząco uprościć obliczenia przyjmiemy $\sin\theta\approx\theta$ co jest prawdą dla małych wartości kąta $\theta$ zgodnie z
+	twierdzeniem Taylora. Dzięki temu ograniczamy wpływ oporu powietza na wyniki, a z uproszczonego równania ruchu wahadła
+	uzyskujemy następujacą zależność
+	\begin{equation}
+	T=2\pi\sqrt{\frac{l}{g}}
+	\end{equation}
+	gdzie $T$ - okres drgań, $l$ - długość nici, $g$ - przyspieszenie grawitacyjne. Po przekształceniu otrzymujemy wzór roboczy pozwalający
+	na wyznaczenie wartości przyspieszenia grawitacyjnego dla Ziemi
+	\begin{equation}
+	\label{eq:working_g}
+	g=\frac{4\pi^2l}{T^2}
+	\end{equation}
+	\newpage
+	\section{Wykonanie ćwiczenia}
+	
+	\begin{enumerate}
+		\item Zapoznać się z budową mikroskopu
+		\item Na obu powierzchniach płytki zrobić kreski, jedna nad drugą cienkim pisakiem (ewentualnie wykorzystać istniejące kreski)
+		\item Zmierzyć śrubą
+		mikrometryczną
+		grubość płytki d w pobliżu kresek. 
+		\item Ustaw  badaną
+		płytkę
+		na  stoliku  mikroskopu  w  uchwycie  i  dobierz  ostrość
+		tak  by  uzyskać
+		kontrastowy obraz. Regulując położenie stolika pokrętłem 7a zaobserwuj górny i dolny 
+		ślad zaznaczony na płytce. 
+		\item Pokrętłem 7b przesuń stolik mikroskopu do momentu uzyskania ostrego obrazu śladu na górnej powierzchni płytki.
+		\item Odczytaj położenie $a_g$ wskazówki czujnika mikrometrycznego. 
+		\item Przesuń stolik mikroskopu do położenia, w którym widoczny jest ślad na dolnej powierzchni płytki (pokrętłem 7b). 
+		\item Ponownie odczytaj położenie $a_d$ wskazówki czujnika.
+		\item Odczyty zanotuj w tabeli 1, 2 lub 3.
+	\end{enumerate}
+	
+	
+	\section{Wyniki pomiarów}
+	\paragraph{Obliczenie grubości rzeczywistej dla płytki szklanej} 
+	$\bar{d}$ ze wzoru $\bar{x} = \frac{1}{n} \sum x_i$ \\
+	$\bar{d} = \frac{4,76 +
+		4,74 +
+		4,74 +
+		4,73 +
+		4,71 +
+		4,75 +
+		4,74 +
+		4,74 +
+		4,72 +
+		4,72
+	}{10} = 4,74
+	$ \\
+	ze wzoru $u(x) \equiv s_x = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n(n-1)}}$ \\niepewność pomiaru grubości\\ $u(\bar{d}) = \sqrt{\frac{(4,76-4,74)^2 + (4,74-4,74)^2 + ... +(4,72-4,74)^2 +}{9*10}} = 0,005[mm] $
+	\\ Niepewność typu B jest równa najmniejszej podziałce użytego przyrządu $u(d_b)= 0,01mm$
+	Niepewność złożona $\frac{u(d)}{d} = \sqrt{(\frac{u(\bar{d})}{d})^2 + (\frac{u(d_b)}{d})^2} =\sqrt{(\frac{0,005}{4,74})^2 + (\frac{0,01}{4,74})^2} = 0,24\%$
+	\\Niepewność bezwględna $u(d) = 4,74mm * 0,24\% = 0,011mm$  
+	\begin{table}[!htbp]
+		\caption{Pomiary grubości rzeczywistej płytki}
+		\begin{center}
+			\begin{tabular}{|c|c|}
+				\hline
+				Materiał & Szkło \\ \hline
+				Lp. & Grubość {[}mm{]} \\ \hline
+				1 & 4,76 \\ \hline
+				2 & 4,74 \\ \hline
+				3 & 4,74 \\ \hline
+				4 & 4,73 \\ \hline
+				5 & 4,71 \\ \hline
+				6 & 4,75 \\ \hline
+				7 & 4,74 \\ \hline
+				8 & 4,74 \\ \hline
+				9 & 4,72 \\ \hline
+				10 & 4,72 \\ \hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+	\begin{table}[!htbp]
+		\caption{\textbf{}}
+		\centering
+		\def\arraystretch{1.4}
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			\multicolumn{4}{|l|}{\makecell{materiał: szkło\hspace{85pt} \\ grubość rzeczywista d = 4,74[mm] \\ niepewność \hspace{20pt}$u(d) = 0,011$[mm]\hspace{55pt}}} 
+			\\ \hline
+			\multirow{2}{*}{lp.} & \multicolumn{2}{c|}{Wskazanie czujnika} & \makecell{grubość \\pozorna } \\
+			\cline{2-4}
+			  
+			\multirow{2}{*}{} & $a_d$[mm] & $a_g$[mm] & $h = a_d - a_g$[mm] \\ \hline
+			1 & 4,19 & 1,13 & 3,06 \\ \hline
+			2 & 4,23 & 1,02 & 3,21 \\ \hline
+			3 & 4,22 & 1,14 & 3,08\\ \hline
+			4 & 4,21 & 1,15 & 3,06\\ \hline
+			5 & 4,17 & 1,17 & 3,00\\ \hline
+			6 & 4,16 & 1,19 & 2,97\\ \hline
+			7 & 4,16 & 1,17 & 2,99\\ \hline
+			8 & 4,21 & 1,15 & 3,06\\ \hline
+			9 & 4,19 & 1,17 & 3,02\\ \hline
+			10 & 4,19 & 1,19 & 3,00\\ \hline
+		\end{tabular}
+	\end{table}
+
+\newpage
+\begin{center}
+	
+	średnia grubość pozorna \textit{h} $= \frac{3,06 +
+		3,21 +
+		3,08 +
+		3,06 +
+		3 +
+		2,97 +
+		2,99 +
+		3,06 +
+		3,02 +
+		3	
+	}{10} = 3,04[mm] $\\
+	niepewność \textit{u(h)} $=\sqrt{\frac{\sum(x_i - \bar{x})^2}{n(n-1)}} =  \sqrt{\frac{(3,06-3,04)^2 + (3,21-3,04)^2 + ... +(3-3,04)^2 +}{9*10}} = 0,022[mm] $
+\end{center}
+		\newpage
+		\paragraph{Obliczenie grubości rzeczywistej dla płytki pleksiglasowej}
+		$\bar{d}$ ze wzoru $\bar{x} = \frac{1}{n} \sum x_i$ \\
+		$\bar{d} = \frac{3,82 +
+			3,81 +
+			3,81 +
+			3,82 +
+			3,8 +
+			3,8 + 
+			3,81 +
+			3,79 +
+			3,8 +			
+			3,8}{10} = 3,81
+		$ \\
+		ze wzoru $u(x) \equiv s_x = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n(n-1)}}$ \\niepewność pomiaru grubości\\ $u(\bar{d}) = \sqrt{\frac{(3,82-3,81)^2 + (3,81 - 3,81)^2 + ... +(3,8 - 3,81)^2 +}{9*10}} = 0,003[mm] $
+		\\ Niepewność typu B jest równa najmniejszej podziałce użytego przyrządu $u(d_b)= 0,01mm$
+		Niepewność złożona $\frac{u(d)}{d} = \sqrt{(\frac{u(\bar{d})}{d})^2 + (\frac{u(d_b)}{d})^2} =\sqrt{(\frac{0,003}{3,81})^2 + (\frac{0,01}{3,81})^2} = 0,27\%$
+		\\Niepewność bezwględna $u(d) = 3,81mm * 0,27\% = 0,01mm$  
+		\begin{table}[!htbp]
+			\caption{Pomiary grubości rzeczywistej płytki}
+			\begin{center}
+			\begin{tabular}{|c|c|}
+				\hline
+				Materiał & Pleksiglas \\ \hline
+				Lp. & Grubość {[}mm{]} \\ \hline
+				1 & 3,82 \\ \hline
+				2 & 3,81 \\ \hline
+				3 & 3,81 \\ \hline
+				4 & 3,82 \\ \hline
+				5 & 3,8 \\ \hline
+				6 & 3,8 \\ \hline
+				7 & 3,81 \\ \hline
+				8 & 3,79 \\ \hline
+				9 & 3,8 \\ \hline
+				10 & 3,8 \\ \hline
+			\end{tabular}
+		\end{center}
+		\end{table}
+			\begin{table}[!htbp]
+			\caption{\textbf{}}
+			\centering
+			\def\arraystretch{1.4}
+			\begin{tabular}{|c|c|c|c|}
+				\hline
+				\multicolumn{4}{|l|}{\makecell{materiał: pleksiglas\hspace{64pt} \\ grubość rzeczywista d = 3,81[mm] \\ niepewność \hspace{25pt}$u(d) = 0,01$[mm]\hspace{20pt}}} 
+				\\ \hline
+				\multirow{2}{*}{lp.} & \multicolumn{2}{c|}{Wskazanie czujnika} & \makecell{grubość \\pozorna } \\
+				\cline{2-4}
+				
+				\multirow{2}{*}{} & $a_d$[mm] & $a_g$[mm] & $h = a_d - a_g$[mm] \\ \hline
+				1 & 4,39 & 1,74 & 2,65 \\ \hline
+				2 & 4,38 & 1,80 & 2,38 \\ \hline
+				3 & 4,36 & 1,74 & 2,62\\ \hline
+				4 & 4,35 & 1,79 & 2,56\\ \hline
+				5 & 4,35 & 1,76 & 2,59\\ \hline
+				6 & 4,42 & 1,82 & 2,60\\ \hline
+				7 & 4,39 & 1,76 & 2,63\\ \hline
+				8 & 4,38 & 1,79 & 2,59\\ \hline
+				9 & 4,41 & 1,78 & 2,63\\ \hline
+				10 & 4,33 & 1,78 & 2,55\\ \hline
+		\end{tabular}
+	\end{table}
+\\Wyniki pomiaru 2 znacznie różnią się od pozostałych co sugeruje popełnienie błędu grubego dlatego pomiar ten odrzucamy
+	\begin{center}
+		
+		średnia grubość pozorna \textit{h} $= \frac{2,65 +
+			2,62 +
+			2,56 +
+			2,59 +
+			2,6 +
+			2,63 +
+			2,59 +
+			2,63 +
+			2,55
+		}{9} = 2,60[mm] $\\
+		niepewność \textit{u(h)} $=\sqrt{\frac{\sum(x_i - \bar{x})^2}{n(n-1)}} =  \sqrt{\frac{(2,65-2,60)^2 + (2,62 - 2,60)^2 + ... +(2,55 - 2,6)^2 +}{8*9}} = 0,011[mm] $
+	\end{center}
+	
+	
+	\section{Opracowanie wyników pomiarów}
+	\begin{enumerate}
+		\item Oblicz wartość współczynnika załamania dla \textit{n} dla każdej badanej płytki.
+		\item oszacuj niepewność typu B wyznaczenia grubości rzeczywistej \textit{u(d)} oraz niepewność typu A dla grubości pozornej \textit{h} (wyniki zapisz w odpowiedniej tabeli).
+		\item Oblicz niepewność złożoną współczynnika załamania z prawa przenoszenia niepewności $$  u(n) = \sqrt{\left[\frac{1}{d}u(d)\right]^2 + \left[ \frac{-d}{h^2}u(h)\right]^2}$$
+		\item Zapisz otrzymane wartości współczynnika załamania wraz z niepewnościami i porównaj je z wartościami tabelarycznymi. 
+ 	\end{enumerate}
+ \paragraph{Zestawienie wyników} 
+ \paragraph{}
+ \begin{center}
+ 
+ 	\begin{tabular}[b]{|c|c|c|}
+ 		\hline
+ 		rodzaj materiału & \textit{n} zmierzone & \textit{n} tablicowe \\ \hline
+ 		&& \\ \hline
+ 		&& \\ \hline
+ 	\end{tabular}
+\end{center}
+	\noindent
+	
+	
+	\section{Wnioski}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{}
