@@ -159,6 +159,9 @@
 	}{10} = 3,04[mm] $\\
 	niepewność \textit{u(h)} $=\sqrt{\frac{\sum(x_i - \bar{x})^2}{n(n-1)}} =  \sqrt{\frac{(3,06-3,04)^2 + (3,21-3,04)^2 + ... +(3-3,04)^2 +}{9*10}} = 0,022[mm] $
 \end{center}
+Współczynnik załamania dla płytki szklanej $ n = \frac{d}{h} = \frac{4,74}{3,04} = 1,559$. \\
+	Niepewność złożona współczynnika załamania z prawa przenoszenia niepewności $$  u(n) = \sqrt{\left[\frac{1}{d}u(d)\right]^2 + \left[ \frac{-d}{h^2}u(h)\right]^2} = \sqrt{\left[\frac{1}{4,74}0,011\right]^2 + \left[ \frac{-4,74}{(3,04)^2}0,022\right]^2} = 0,02304 $$\\
+	Niepewność rozszerzona $U(n) = k\cdot u(g)$ dla $k = 2\cdot U(n) = 2 \cdot 0,01152 = 0,01244$.
 		\newpage
 		\paragraph{Obliczenie grubości rzeczywistej dla płytki pleksiglasowej}
 		$\bar{d}$ ze wzoru $\bar{x} = \frac{1}{n} \sum x_i$ \\
@@ -237,7 +240,9 @@
 		}{10} = 2,60[mm] $\\
 		niepewność \textit{u(h)} $=\sqrt{\frac{\sum(x_i - \bar{x})^2}{n(n-1)}} =  \sqrt{\frac{(2,65-2,60)^2 + (2,62 - 2,60)^2 + ... +(2,55 - 2,6)^2 +}{9*10}} = 0,01[mm] $
 	\end{center}
-	
+	Współczynnik załamania dla płytki pleksiglasowej $ n = \frac{d}{h} = \frac{3,81}{2,60} = 1,465$. \\
+	Niepewność złożona współczynnika załamania z prawa przenoszenia niepewności $$  u(n) = \sqrt{\left[\frac{1}{d}u(d)\right]^2 + \left[ \frac{-d}{h^2}u(h)\right]^2} = \sqrt{\left[\frac{1}{3,81}0,01\right]^2 + \left[ \frac{-3,81}{(2,60)^2}0,01\right]^2} = 0,00622 $$\\
+	Niepewność rozszerzona $U(n) = ku(g)$ dla $k = 2 U(n) = 2 \cdot 0,00622 = 0,01244$.
 	
 	\section{Opracowanie wyników pomiarów}
 	\begin{enumerate}
@@ -253,8 +258,8 @@
  	\begin{tabular}[b]{|c|c|c|}
  		\hline
  		rodzaj materiału & \textit{n} zmierzone & \textit{n} tablicowe \\ \hline
- 		&& \\ \hline
- 		&& \\ \hline
+ 		Pleksiglas & 1,465($\pm$0,01244) & 1,489\\ \hline
+ 		Szkło & 1,559($\pm$0,02304)&1,50-1,54 \\ \hline
  	\end{tabular}
 \end{center}
 	\noindent
@@ -262,6 +267,7 @@
 	
 	\section{Wnioski}
 
+	Mierząc grubość pozorną oraz rzeczywistą płytek możemy wyznaczyć współczynnik załamania światła. Otrzymana wartość współczynnika załamania światła dla szklanej płytki jest zgodna z tablicową wartością w granicach niepewności. Wartość współczynnika załamania światła dla pleksiglasowej płytki nie jest zgodna z tablicową wartością w granicach niepewności. Błędy pomiarów mogą być spowodowane małą dokładnością metody pomiarów, ponieważ określenie czy obraz jest idealnie wyostrzony było subiektywną opinią.  
 \end{document}
 
 
