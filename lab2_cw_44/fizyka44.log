@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.10)  24 OCT 2018 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.10)  24 OCT 2018 15:13
 entering extended mode
 **./fizyka44.tex
 (fizyka44.tex
@@ -352,33 +352,38 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) [1
+)
+Overfull \hbox (10.37364pt too wide) in paragraph at lines 49--83
+[][] 
+ []
 
-{C:/Users/test/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
-<W1.png, id=19, 580.41844pt x 397.485pt>
+[1
+
+{C:/Users/test/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<W1.png, id=11, 580.41844pt x 397.485pt>
 File: W1.png Graphic file (type png)
 <use W1.png>
-Package pdftex.def Info: W1.png  used on input line 148.
+Package pdftex.def Info: W1.png  used on input line 112.
 (pdftex.def)             Requested size: 348.25375pt x 238.49283pt.
-<W2.png, id=20, 580.41844pt x 432.11438pt>
+<W2.png, id=12, 580.41844pt x 432.11438pt>
 File: W2.png Graphic file (type png)
 <use W2.png>
-Package pdftex.def Info: W2.png  used on input line 151.
+Package pdftex.def Info: W2.png  used on input line 115.
 (pdftex.def)             Requested size: 348.25375pt x 259.27061pt.
-<W3.png, id=21, 580.41844pt x 397.485pt>
+<W3.png, id=13, 580.41844pt x 397.485pt>
 File: W3.png Graphic file (type png)
 <use W3.png>
-Package pdftex.def Info: W3.png  used on input line 154.
+Package pdftex.def Info: W3.png  used on input line 118.
 (pdftex.def)             Requested size: 348.25375pt x 238.49283pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./W1.png>] [5 <./W2.png> <./W3.png>] [6] (fizyka44.aux) ) 
+ [2 <./W1.png>] [3 <./W2.png> <./W3.png>] [4] (fizyka44.aux) ) 
 Here is how much of TeX's memory you used:
- 4835 strings out of 492970
- 67002 string characters out of 3143384
- 154212 words of memory out of 3000000
- 8636 multiletter control sequences out of 15000+200000
+ 4834 strings out of 492970
+ 66988 string characters out of 3143384
+ 155204 words of memory out of 3000000
+ 8635 multiletter control sequences out of 15000+200000
  7086 words of font info for 20 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,38p,277b,263s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -386,14 +391,13 @@ Here is how much of TeX's memory you used:
 ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Use
 rs\test\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 > <C:\Users\test\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-rm1000.pk><D:/Mikitex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Mikitex/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Mikitex/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb><D:/Mikitex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Mikitex/f
-onts/type1/public/amsfonts/cm/cmr7.pfb><D:/Mikitex/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb>
-Output written on fizyka44.pdf (6 pages, 137858 bytes).
+rm1000.pk><D:/Mikitex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Mikitex/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Mikitex/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><D:/Mikitex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Mikitex/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on fizyka44.pdf (4 pages, 119987 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
+ 168 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
