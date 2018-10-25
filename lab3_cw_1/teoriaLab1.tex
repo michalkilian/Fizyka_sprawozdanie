@@ -42,12 +42,16 @@ do pręta i przechodzącej przez jego środek masy.}
 
 Moment bezwładności punktu materialnego jest definiowany
 jako iloczyn masy i kwadratu odległości od osi obrotu. Momenty bezwładności brył
-sztywnych, tak I0 jak i IS , wyraŜa się jako całkę oznaczoną\\
+sztywnych, tak I0 jak i IS , wyraża się jako całkę oznaczoną\\
 $I = \int_m r^2 dm$\\
 gdzie r jest odległością elementu masy dm od osi obrotu. Całkę można analitycznie
 obliczyć dla brył jednorodnych o prostych kształtach.
 \\
-{\color{red}{Wyprowadzić moment bezwładności}}
+Dla jednorodnego pręta o długości l i masie m względem prostopadłej osi przechodzącej przez środek masy mamy:\\
+\begin{center}
+gęstość liniowa $ \lambda = \frac{m}{l} dm = \lambda dx $
+\end{center}
+$$ I = \int_{\frac{-l}{2}}^{\frac{l}{2}} \lambda x^2 dx = \frac{\lambda x^3}{3}|_{\frac{-l}{2}}^{\frac{l}{2}} = \frac{\lambda l^3}{24} + \frac{\lambda l^3}{24} = \frac{ml^2}{12}$$
 
 \section{Twierdzenie Steinera dla momentu bezwładności i przykłady jego
 zastosowania.}
@@ -56,8 +60,13 @@ $I_0$ - moment bezwładności względem osi przechodzącej przez środek masy\\
 $I$ - moment bezwładności względem osi równoległej do pierwszej osi\\
 $d$ - odległość między osiami\\
 $m$ - masa bryły.\\
-{\color{red}{Dodać przykład}}
 
+Przykładowo obliczmy moment bezwładności pręta o długości l i masie m dla osi przechodzącej przez koniec pręta.
+
+Z twierdzenia Steinera $$I = I_0 + md^2 = \frac{ml^2}{12} + m (\frac{l}{2})^2 =  \frac{ml^2}{12} +  \frac{ml^2}{4} =  \frac{ml^2}{3}$$
+
+porównajmy otrzymany wynik z bezwładnością otrzymaną z całki 
+$$ I = \int_{0}^{l} \lambda x^2 dx = \frac{\lambda x^3}{3}|_{0}^{l} = \frac{\lambda l^3}{3} - 0 = \frac{ml^2}{3}$$
 
 \section{ Ruch harmoniczny, równanie ruchu i parametry opisujące ruch (amplituda,
 okres, częstość, częstotliwość)}
@@ -71,7 +80,8 @@ $t$ - czas, w którym te drgania występują.\\
 
 Ruch harmoniczny - ruch drgający, w którym na ciało działa siła o wartości proporcjonalnej do wychylenia ciała z położenia równowagi, skierowana zawsze w stronę punktu równowagi. Ruch, który powtarza się w regularnych odstępach czasu np. drgania ciała zawieszonego na sprężynie, wahadło.
 
-{\color{red}{Dodać wzór na ruch harmoniczny}}
+Zależność przemieszczenia x(t) ciała w ruchu harmonicznym opisuje wzór
+$$x(t) = A \cos (\omega t + \phi)$$
 
 \section{Wahadło matematyczne. Opis ruchu wahadła matematycznego dla małych
 drgań. Okres drgań tego wahadła.{\color{red}{Gotowe}}}
