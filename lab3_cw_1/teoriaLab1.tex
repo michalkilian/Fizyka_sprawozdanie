@@ -1,0 +1,98 @@
+\documentclass[a4paper,11pt]{article} % preambuła
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc} % utf8, cp1250
+\usepackage{pslatex}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage{algorithm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage{algpseudocode}
+\usepackage{pgfplots}
+\newgeometry{tmargin=1.5cm, bmargin=1.5cm, lmargin=1.5cm, rmargin=1.5cm}
+
+\begin{document}
+\section{ Definicje i podstawowe zależności dla wielkości kinetycznych opisujących
+ruch obrotowy (kąt, prędkość kątowa, przyspieszenie kątowe, jednostajny i
+niejednostajny ruch obrotowy){\color{red}{Gotowe}}}
+Kąt - przestrzeń zawarta między dwiema półprostymi wychodzącymi z tego samego punktu.\\
+Prędkość kątowa - wielkość wektorowa opisująca ruch obrotowy. Jest ilorazem kąta $\alpha$ zakreślonego przez promień wodzący punktu poruszającego się po okręgu do czasu $t$, w którym ten kąt został zakreślony. $\omega = \frac{\alpha}{t}$. Jednostką prędkości kątowej jest $[\omega] = \frac{rad}{s}$.\\
+Przyspieszenie kątowe - pochodna prędkości kątowej po czasie. $\vec{a_{r}} = \frac{d \vec{\omega}}{dt}.$\\
+Ruch jednostajny obrotowy - ruch, w którym wektor prędkości kątowej $\vec{\omega}$ ma stałą wartość, kierunek i zwrot. Kierunek jest równoległy do bryły. \\
+Ruch niejednostajny obrotowy - ruch po okręgu ze zmienną wartością prędkości kątowej.
+
+
+\section{Definicje i podstawowe zależności dla wielkości dynamicznych opisujących
+ruch obrotowy (moment bezwładności, momentu pędu, moment siły, druga
+zasada dynamiki dla ruchu obrotowego).{\color{red}{Gotowe}} }
+Moment bezwładności - opisuje sposób rozkładu masy wokół osi obrotu. Jest funkcją kwadratu odległości elementów masy od osi obrotu. $I = mR^2$ . $ [I] = kg \cdot m^2$\\
+Pęd - iloczyn masy $m$ oraz prędkości $v$ punktu. $\vec{p} = m \vec{v}$\\
+Moment pędu - iloczyn wektorowy promienia wodzącego $R$ elementu masy i wektora pędu tego elementu. $ L = r X p$ Dla ciała o momencie bezwładności $I$ obracającego się wokół ustalonej osi z prędkością kątową $\omega$ moment pędu można wyrazić wzorem: $L = I \omega$.\\
+Moment siły - wielkość wektorowa równa iloczynowi wektorów ramienia siły i siły. $ \vec{M} = \vec{r} X \vec{F} = r F sin(\alpha)$, gdzie $\alpha$ - kąt między wektorem ramienia siły i wektorem siły. Jednostką jest niutonometr $[M] = 1 Nm$ \\
+Druga zasada dynamiki dla ruchu obrotowego - jeżeli wypadkowy moment siły $M$ działający na ciało jest różny od zera, to ciało porusza się z przyspieszeniem kątowym $\epsilon$. Przyspieszenie kątowe bryły jest wprost proporcjonalne do wypadkowego momentu siły i odwrotnie proporcjonalne do momentu bezwładności $I$ : $\vec{\epsilon} = \frac{\vec{M}}{I}$.
+
+
+\section{Definicja momentu bezwładności. Wyprowadzenie momentu bezwładności
+dla jednorodnego pręta o długości l i masie m względem osi prostopadłej
+do pręta i przechodzącej przez jego środek masy.}
+
+Moment bezwładności punktu materialnego jest definiowany
+jako iloczyn masy i kwadratu odległości od osi obrotu. Momenty bezwładności brył
+sztywnych, tak I0 jak i IS , wyraŜa się jako całkę oznaczoną\\
+$I = \int_m r^2 dm$\\
+gdzie r jest odległością elementu masy dm od osi obrotu. Całkę można analitycznie
+obliczyć dla brył jednorodnych o prostych kształtach.
+\\
+{\color{red}{Wyprowadzić moment bezwładności}}
+
+\section{Twierdzenie Steinera dla momentu bezwładności i przykłady jego
+zastosowania.}
+Twierdzenie Steinera: Moment bezwładności bryły sztywnej względem dowolnej osi jest równy sumie momentu bezwładności względem osi równoległej do danej i przechodzącej przez środek masy bryły oraz iloczynu masy bryły i kwadratu odległości między tymi dwiema osiami, co wyraża się wzorem: $I = I_0 + md^2$, gdzie: \\
+$I_0$ - moment bezwładności względem osi przechodzącej przez środek masy\\
+$I$ - moment bezwładności względem osi równoległej do pierwszej osi\\
+$d$ - odległość między osiami\\
+$m$ - masa bryły.\\
+{\color{red}{Dodać przykład}}
+
+
+\section{ Ruch harmoniczny, równanie ruchu i parametry opisujące ruch (amplituda,
+okres, częstość, częstotliwość)}
+Amplituda - największe wychylenie z położenia równowagi w ruchu drgającym lub falowym. \\
+Okres - czas wykonania jednego pełnego drgania w ruchu drgającym. Dla fali oznacza to odcinek czasu między dwoma punktami fali o tej samej fazie. $ T = \frac{1}{f}$, gdzie $f$ to częstotliwość.\\
+Częstość - (w fizyce ruchu drgającego lub falowego) wielkość określająca, jak szybko powtarza się dane zjawisko okresowe. Powiązana jest z częstotliwością i okresem.\\
+Częstotliwość - wielkość fizyczna określająca liczbę cykli zjawiska okresowego występujących w jednostce czasu. $f = \frac{n}{t}$, gdzie: \\
+$f$ - częstotliwość\\
+$n$ - liczba drgań\\
+$t$ - czas, w którym te drgania występują.\\
+
+Ruch harmoniczny - ruch drgający, w którym na ciało działa siła o wartości proporcjonalnej do wychylenia ciała z położenia równowagi, skierowana zawsze w stronę punktu równowagi. Ruch, który powtarza się w regularnych odstępach czasu np. drgania ciała zawieszonego na sprężynie, wahadło.
+
+{\color{red}{Dodać wzór na ruch harmoniczny}}
+
+\section{Wahadło matematyczne. Opis ruchu wahadła matematycznego dla małych
+drgań. Okres drgań tego wahadła.{\color{red}{Gotowe}}}
+
+Wahadło matematyczne to punkt materialny poruszający się po okręgu w płaszczyźnie pionowej w jednorodnym polu grawitacyjnym.
+W przybliżeniu małych kątów ($\phi \le 5^o$), tj. drgań o małej amplitudzie, częstość kołową $\omega$ oraz okres $T$ drgań wahadła matematycznego możemy wyznaczyć korzystając z poniższych wzorów:\\
+$ \omega = \sqrt{\frac{mgL}{I}} $ oraz $ T = 2 \pi \sqrt{\frac{I}{mgL}}$, gdzie:\\
+m - masa ciężarka\\
+g - przyspieszenie ziemskie\\
+L - odległość dzieląca punkt zawieszenia wahadła od środka jego masy równa długości linki\\
+I - moment bezwładności wahadła względem jego punktu zawieszenia.
+
+Okres drgań wahadła matematycznego: $T = 2\pi \sqrt{\frac{L}{g}}$
+
+\section{Wahadło fizyczne. Przybliżony opis ruchu wahadła fizycznego za pomocą
+równania ruchu harmonicznego. Okres drgań wahadła fizycznego w
+przybliżeniu harmonicznym.{\color{red}{Gotowe}}}
+Wahadłem fizycznym nazywamy bryłę sztywną mogącą obracać się wokół osi obrotu $O$ nie przechodzącej przez środek masy $S$. Dla wahadła fizycznego moment siły powstaje pod wpływem siły ciężkości. Dla wychylenia $\theta$ jest równy $M = mga\sin(\theta)$, gdzie $a$ oznacza odległość środka masy $S$ od osi obrotu $O$. 
+
+Równanie ruchu wahadła można zapisać jako $I_0 \frac{d^2\theta}{dt^2} = -mga\sin(\theta)$, gdzie $I_0$ jest momentem bezwładności względem osi obrotu przechodzącej przez punkt zawieszenia $O$. Jeżeli ograniczyć ruch do małych kątów wychylenia, to sinus kąta można zastąpić samym kątem w mierze łukowej, czyli $\sin(\theta) \approx \theta$. Wtedy: \\
+$\frac{d^2\theta}{dt^2} + \omega_0^2 \theta(t) = 0$, gdzie $\omega_0^2 = \frac{mga}{I_0}$.\\ Jest to równanie oscylatora harmonicznego, którego rozwiązanie : \\
+$ \theta = \theta_m \cos(\omega_o t + \alpha)$ przedstawia ruch harmoniczny. Amplituda $\theta_m$ i faza $\alpha$ zależą od warunków początkowych. \\
+Okres drgań T wynosi : $ T = 2 \pi \sqrt{\frac{I_0}{mga}}$
+\end{document}
