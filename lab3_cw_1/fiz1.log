@@ -1,12 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.30)  3 NOV 2018 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.15)  4 NOV 2018 12:48
 entering extended mode
 **./fiz1.tex
 (fiz1.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-(C:\latex\tex\latex\base\article.cls
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(C:\latex\tex\latex\base\size10.clo
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -20,28 +21,36 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (C:\latex\tex\generic\babel\babel.sty
+)
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
+y"
 Package: babel 2018/02/14 3.18 The Babel package
 
-(C:\latex\tex\generic\babel\switch.def
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.d
+ef"
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\TURNIEJ HS\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg"
+
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cf
+g"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\TURNIEJ HS\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-polish\polish.
-ldf"
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-polish\pol
+ish.ldf"
 Language: polish 2005/03/31 v1.2l Polish support from the babel system
- (C:\latex\tex\generic\babel\babel.def
+
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.de
+f"
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 
-(C:\latex\tex\generic\babel\txtbabel.def)
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel
+.def")
 \bbl@dirlevel=\count88
 )
 Package babel Info: Making " an active character on input line 83.
@@ -50,18 +59,18 @@ Package babel Info: Making " an active character on input line 83.
 \pl@right=\dimen106
 \pl@temp=\dimen107
 ))
-(C:\latex\tex\latex\base\inputenc.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
+y"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
- (C:\latex\tex\latex\base\utf8.def
+ ("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
-
-(C:\latex\tex\latex\base\t1enc.dfu
+ ("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -301,7 +310,8 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
- (C:\latex\tex\latex\base\ot1enc.dfu
+
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -341,8 +351,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
-
-(C:\latex\tex\latex\base\omsenc.dfu
+ ("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu
+"
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -365,23 +375,29 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (C:\latex\tex\latex\base\fontenc.sty
+))
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(C:\latex\tex\latex\base\t1enc.def
+ ("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (C:\latex\tex\latex\tools\indentfirst.sty
+))
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfirs
+t.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) ("C:\Users\TURNIEJ HS\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.st
-y"
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+)
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.
+sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Users\TURNIEJ HS\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
-"
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
- (C:\latex\tex\latex\graphics\keyval.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3
+.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.
+sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
@@ -393,25 +409,28 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \caption@parindent=\dimen113
 \caption@hangindent=\dimen114
 )
-\c@caption@flags=\count89
-\c@ContinuedFloat=\count90
+\c@ContinuedFloat=\count89
 )
-(C:\latex\tex\latex\geometry\geometry.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometr
+y.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(C:\latex\tex\generic\oberdiek\ifpdf.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
+.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(C:\latex\tex\generic\oberdiek\ifvtex.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvte
+x.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(C:\latex\tex\generic\ifxetex\ifxetex.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxete
+x.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count91
-\Gm@cntv=\count92
-\c@Gm@tempcnt=\count93
+\Gm@cnth=\count90
+\Gm@cntv=\count91
+\c@Gm@tempcnt=\count92
 \Gm@bindingoffset=\dimen115
 \Gm@wd@mp=\dimen116
 \Gm@odd@mp=\dimen117
@@ -422,29 +441,38 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen122
 \Gm@dimlist=\toks17
 
-(C:\latex\tex\latex\geometry\geometry.cfg))
-(C:\latex\tex\latex\graphics\graphicx.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometr
+y.cfg"))
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+x.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\latex\tex\latex\graphics\graphics.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+s.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- (C:\latex\tex\latex\graphics\trig.sty
+
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
+y"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\latex\tex\latex\graphics-cfg\graphics.cfg
+)
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
+phics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(C:\latex\tex\latex\graphics-def\pdftex.def
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
+tex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen123
 \Gin@req@width=\dimen124
 )
-("C:\Users\TURNIEJ HS\AppData\Roaming\MiKTeX\2.9\tex\latex\makecell\makecell.st
-y"
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\makecell\makecel
+l.sty"
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
- (C:\latex\tex\latex\tools\array.sty
+
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen125
 \extrarowheight=\dimen126
@@ -453,34 +481,42 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \backup@length=\skip44
 )
 \rotheadsize=\dimen127
-\c@nlinenum=\count94
+\c@nlinenum=\count93
 \TeXr@lab=\toks19
 )
-(C:\latex\tex\latex\amsmath\amsmath.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.
+sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(C:\latex\tex\latex\amsmath\amstext.sty
+
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.
+sty"
 Package: amstext 2000/06/29 v2.01 AMS text
- (C:\latex\tex\latex\amsmath\amsgen.sty
+
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.s
+ty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen128
-)) (C:\latex\tex\latex\amsmath\amsbsy.sty
+))
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.s
+ty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen129
 )
-(C:\latex\tex\latex\amsmath\amsopn.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.s
+ty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count95
+\inf@bad=\count94
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count96
-\leftroot@=\count97
+\uproot@=\count95
+\leftroot@=\count96
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count98
-\DOTSCASE@=\count99
+\classnum@=\count97
+\DOTSCASE@=\count98
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -489,15 +525,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen130
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
 \dotsspace@=\muskip10
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
 \tag@help=\toks21
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
 \andhelp@=\toks22
 \eqnshift@=\dimen131
 \alignsep@=\dimen132
@@ -512,8 +548,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Users\TURNIEJ HS\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.st
-y"
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktab
+s.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen137
 \lightrulewidth=\dimen138
@@ -525,17 +561,19 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen144
 \cmidrulekern=\dimen145
 \defaultaddspace=\dimen146
-\@cmidla=\count107
-\@cmidlb=\count108
+\@cmidla=\count106
+\@cmidlb=\count107
 \@aboverulesep=\dimen147
 \@belowrulesep=\dimen148
-\@thisruleclass=\count109
-\@lastruleclass=\count110
+\@thisruleclass=\count108
+\@lastruleclass=\count109
 \@thisrulewidth=\dimen149
-) (C:\latex\tex\latex\multirow\multirow.sty
+)
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multiro
+w.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip48
-\multirow@cntb=\count111
+\multirow@cntb=\count110
 \multirow@dima=\skip49
 \bigstrutjot=\dimen150
 ) (fiz1.aux)
@@ -590,45 +628,56 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Users\TURNIEJ HS\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
-"
+
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
+mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
+\scratchcounter=\count111
 \scratchdimen=\dimen151
 \scratchbox=\box28
-\nofMPsegments=\count113
-\nofMParguments=\count114
+\nofMPsegments=\count112
+\nofMParguments=\count113
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count115
+\MPscratchCnt=\count114
 \MPscratchDim=\dimen152
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks26
-) (C:\latex\tex\latex\oberdiek\epstopdf-base.sty
+)
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
+f-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(C:\latex\tex\generic\oberdiek\infwarerr.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
+rerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(C:\latex\tex\latex\oberdiek\grfext.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
+sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(C:\latex\tex\generic\oberdiek\kvdefinekeys.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdef
+inekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(C:\latex\tex\generic\oberdiek\ltxcmds.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
+ds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(C:\latex\tex\latex\oberdiek\kvoptions.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
+ns.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(C:\latex\tex\generic\oberdiek\kvsetkeys.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvset
+keys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(C:\latex\tex\generic\oberdiek\etexcmds.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexc
+mds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(C:\latex\tex\generic\oberdiek\ifluatex.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflua
+tex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -637,7 +686,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(C:\latex\tex\generic\oberdiek\pdftexcmds.sty
+("C:\Users\Mateusz\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfte
+xcmds.sty"
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -653,54 +703,44 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) [1
 
-{C:/Users/TURNIEJ HS/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3
-]
-Overfull \hbox (64.36475pt too wide) detected at line 186
-\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I[]\OT1/cmr/m/n/10 ) = [] =
- [] =
+{C:/Users/Mateusz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [
+4] [5]
+Overfull \hbox (0.67534pt too wide) in paragraph at lines 274--277
+\T1/cmr/m/n/10 Moment bez-wªad-no-±ci ob-li-czony dla pier-±cie-nia z po-miaru 
+czasu drga« wa-ha-dªa wy-nosi $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n
+/10 0452 \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10
+ 0003[\OML/cmm/m/it/10 kg \OMS/cmsy/m/n/10 
  []
 
-[4]
-Overfull \hbox (64.36475pt too wide) detected at line 237
-\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I[]\OT1/cmr/m/n/10 ) = [] =
- [] =
- []
-
-
-Overfull \hbox (44.83826pt too wide) detected at line 243
-[] \OT1/cmr/m/n/10 = [] = [] = 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0107
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5] [6] (fiz1.aux) ) 
+[6] (fiz1.aux) ) 
 Here is how much of TeX's memory you used:
- 5020 strings out of 493305
- 68281 string characters out of 3147093
- 147509 words of memory out of 3000000
- 8494 multiletter control sequences out of 15000+200000
+ 4979 strings out of 493305
+ 71613 string characters out of 3128932
+ 145123 words of memory out of 3000000
+ 8453 multiletter control sequences out of 15000+200000
  7862 words of font info for 21 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,39p,296b,300s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\TURNIEJ HS\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\TURNIEJ HS\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\TURNIEJ HS\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\TUR
-NIEJ HS\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
-><C:/latex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/latex/fonts/type1/publ
-ic/amsfonts/cmextra/cmex7.pfb><C:/latex/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb><C:/latex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/latex/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb><C:/latex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/latex/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/latex/fonts/type1/public/am
-sfonts/cm/cmr7.pfb><C:/latex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/late
-x/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on fiz1.pdf (6 pages, 158692 bytes).
+ 41i,16n,39p,326b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Mateusz\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecti1000.pk> <C:\Users\Mateusz\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Mateusz\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Mateusz\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk><C:/Users/Mateu
+sz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+<C:/Users/Mateusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cmextra/cmex7.pfb><C:/Users/Mateusz/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Mateusz/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Mateusz/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Mateusz
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/Mateusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr5.pfb><C:/Users/Mateusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Users/Mateusz/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mateusz/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on fiz1.pdf (6 pages, 160308 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
