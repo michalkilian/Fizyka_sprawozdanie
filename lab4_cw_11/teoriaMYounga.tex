@@ -1,0 +1,72 @@
+\documentclass[a4paper,11pt]{article} % preambuła
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc} % utf8, cp1250
+\usepackage{pslatex}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage{algorithm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage{algpseudocode}
+\usepackage{pgfplots}
+\newgeometry{tmargin=1.5cm, bmargin=1.5cm, lmargin=1.5cm, rmargin=1.5cm}
+
+\begin{document}
+\section{Sformułuj prawo Hooke’a. Co to są odkształcenia sprężyste?}
+Prawo Hooke'a mówi, że odkształcenia ciała pod wpływem działającej na nie siły jest proporcjonalne do tej siły. Prawo to jest prawdziwe tylko dla niedużych odkształceń, które nie przekraczają granicy Hooke'a oraz tylko dla niektórych materiałów. 
+
+Odkształcenie sprężyste to takie, które ustępuje po usunięciu siły, które je spowodowało. 
+
+\section{Pojęcie naprężenia. Rodzaje naprężeń}
+Naprężenie jest miarą gęstości powierzchniowej sił wewnętrznych występujących w pewnym punkcie przekroju ośrodka ciągłego. Jednostką naprężenia jest paskal [$1 Pa = \frac{1 kg}{1m\cdot s^2}$].
+
+$$\vec{s} = \lim_{\Delta A \rightarrow 0} \frac{\Delta \vec{F}}{\Delta A}$$ gdzie :\\
+$\vec{s}$ - wypadkowy wektor naprężenia, \\
+$\vec{F}$ - wypadkowy wektor sił wewnętrznych,\\
+$A$ - pole przekroju.\\
+
+Rodzaje naprężeń :
+\begin{enumerate}
+\item{rozciąganie}
+\item{ściskanie}
+\item{zginanie}
+\item{skręcanie}
+\end{enumerate}
+
+\section{Co to jest odkształcenie względne?}
+Odkształcenie względne równe jest stosunkowi przyrostu długości początkowej. Oznacza się je $\epsilon = \frac{\Delta l}{l}$.
+
+\section{Moduł Younga - podaj definicję i jednostkę.} 
+Moduł Younga, inaczej zwany modułem odkształcalności liniowej lub modułem sprężystości podłużnej, to wielkość określająca sprężystość materiału przy rozciąganiu i ściskaniu. Wyraża ona, charakterystyczną dla danego materiału, zależność względnego odkształcania liniowego $\epsilon$ materiału od naprężenia $\sigma$, jakie w nim występuje - w zakresie odkształceń sprężystych. 
+$$ E = \frac{\sigma}{\epsilon}$$
+Jednostką modułu Younga jest paskal [$1 Pa = \frac{1N}{m^2} = \frac{1 kg}{1m\cdot s^2}$]. 
+
+Moduł Younga jest hipotetycznym naprężeniem, które wystąpiłoby przy dwukrotnym wydłużeniu próbki materiału, przy założeniu, że jej przekrój nie ulegnie zmianie.
+
+\section{Co dzieje się z drutem po przekroczeniu granicy sprężystości? 
+}
+Granica sprężystości to takie naprężenie, po przekroczeniu którego ciało nie powraca do pierwotnego kształtu po usunięciu naprężenia.
+
+\section{ Dlaczego zmiany długości drutu są dwa razy mniejsze od zmian długości
+podawanych przez czujnik?} 
+Pręt i szalka zamocowane są w połowie
+odległości między osią obrotu a punktem styku z czujnikiem. Wydłużenie drutu $\Delta l$ jest zatem
+dwukrotnie mniejsze od wartości wskazywanej przez czujnik.
+
+\section{Czym różni się wzór definicyjny modułu Younga od wzoru roboczego?}
+Zgodnie z tym prawem Hooke'a zależność rozciągnięcia $\Delta l$ od siły $F$ powinna być linią prostą $\Delta l(F) = aF+b$. Porównując
+to równanie prostej ze wzorem $ \Delta l = F*\frac{l}{ES}$ pokazuje, że współczynnik kierunkowy jest równy $a=\frac{l}{ES}$, stąd
+\begin{equation}
+E=\frac{l}{aS}
+\end{equation}
+co po podstawieniu wzoru na pole powierzchni koła $S=\frac{\pi d^2}{4}$ daje ostateczny, roboczy wzór na moduł Younga.
+\begin{equation}
+\label{eq:young}
+E = \frac{4l}{a*\pi d^2}
+\end{equation}
+Parametr $a$ tego równania będzie wyznaczany jako współczynnik prostej regresji liniowej ze zbioru wyników.
+\end{document}
