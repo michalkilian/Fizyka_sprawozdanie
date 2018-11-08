@@ -60,7 +60,21 @@ $\Delta T$  – zmiana temperatury równa $T-T_{0}$  [$K$].
 \section{Narysuj schemat układu dla mostka Wheatstone’a i wyprowadź wzór na
 wartość nieznanego oporu dla mostka zrównoważonego.}
 \includegraphics[scale=1]{mostek.jpg}
-
+\\
+Gdy mostek jest zrównoważony $I_{BD} = 0$ więc przyjmując $I$ jako natężenie prądu płynącego z ogniwa i korzystając z praw kirchoffa możemy utworzyć równania
+$$I_{AB} + I_{AD} - I = 0$$
+$$I_{AB} = I_{BC} $$
+$$ I_{AD} = I_{DC} $$
+z tego 
+$$I_{AB}R_x = I_{AD}R_{AD}$$
+$$I_{BC}R_2 = I_{DC}R_{DC}$$
+$$\frac{R_x}{R_{AD}} = \frac{I_{AD}}{I_{AB}} \hspace{10pt} \frac{R_2}{R_{DC}} = \frac{I_{DC}}{I_{BC}} \hspace{10pt} \frac{R_2}{R_{DC}} = \frac{I_{AD}}{I_{AB}}$$
+$$\frac{R_x}{R_{AD}} = \frac{R_2}{R_{DC}} \hspace{10pt} R_x = R_2 \frac{R_{AD}}{R_{DC}}$$
+$$R_{AD} = \rho \frac{a}{S} \hspace{10pt} R_{DC} = \rho \frac{b}{S} \hspace{10pt}\text{gdzie S to przekrój drutu a } \rho \text{ to oporność właściwa materiału drutu}$$
+z tego
+$$ \frac{R_{AD}}{R_{DC} = \frac{a}{b}} = \frac{a}{l-a}$$
+ostatecznie
+$$R_x = R_2\frac{a}{l-a}$$
 \section{Udowodnij, że opór zastępczy dwóch oporników połączonych równolegle
 jest mniejszy od oporu mniejszego z nich.}
 
