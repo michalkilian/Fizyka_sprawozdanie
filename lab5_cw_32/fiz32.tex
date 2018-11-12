@@ -1,0 +1,96 @@
+\documentclass[a4paper,10pt,twoside]{article}
+%\usepackage{amssymb}
+%\usepackage{amsthm}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{caption}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{makecell}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+
+\begin{document}
+	
+	\begin{center}
+		\bgroup
+		\def\arraystretch{1.5}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			EAIiIB & \multicolumn{2}{|c|}{Michał Kilian} & Rok II & \multicolumn{2}{|c|}{Grupa 5a} \\
+			\hline
+			\multicolumn{3}{|c|}{\begin{tabular}{c}Temat: \\ Wahadło proste \end{tabular}} & 
+			\multicolumn{3}{|c|}{\begin{tabular}{c}Numer ćwiczenia: \\ 0 \end{tabular}} \\
+			\hline
+			\begin{tabular}{@{}c@{}}Data wykonania\\10.10.2018r.\end{tabular} & \begin{tabular}{@{}c@{}}Data oddania\\12.10.2018r.\end{tabular} & 
+			\begin{tabular}{c}Zwrot do\\poprawki\\\phantom{data} \end{tabular} & \begin{tabular}{c}Data oddania\\\phantom{data}\end{tabular} &
+			\begin{tabular}{@{}c@{}}Data zaliczenia\\\phantom{data}\end{tabular} & \begin{tabular}{c}Ocena\\\phantom{ocena}\end{tabular} \\[4ex]
+			\hline
+		\end{tabular}
+		\egroup
+	\end{center}
+	
+	\section{Cel ćwiczenia}
+	
+	\section{Wykonanie ćwiczenia}
+
+	
+	
+	\section{Wyniki pomiarów}
+	
+	
+	\section{Opracowanie wyników pomiarów}
+
+	BLA BLA BLA Wszystko wyżej JEST DRUKOWANE
+\noindent \\
+	Ad. 1 Nieznany opór obliczamy na podstawie wzoru $R_x = R_{wzorcowy} \frac{a}{l-a}$ wyniki wpisujemy do tabeli. \\
+	Ad. 2 Wartość średnią $\bar{R_x}$ obliczamy ze wzoru $\frac{1}{n} \sum R_{x_i}$ a wyniki wpisujemy do tabeli. Niepewność obliczana jest ze wzoru $u(R_x) = \sqrt{\frac{\sum(R_{x_i} - \bar{R_x})^2}{n(n-1)}}$. \\ Przy obliczaniu średniego $R_{x_2}$ zauważamy że wynik ostatniego pomiaru znacznie różni się od pozostałych (14,5 w stosunku do ponad 18 w poprzednich pomiarach) więc odrzucamy ten pomiar jako błąd gruby.\\
+	Ad. 3 Podobne obliczenia korzystając z tych samych wzorów zostały przeprowadzone dla połączeń: szeregowego, równoległego i mieszanego a ich wyniki wpisane do tabeli.\\
+	Ad. 4 Obliczamy wartość oporu dla połączenia szeregowego $R = R_{x_1} + R_{x_2}$ ze wzoru $R_{ab} = R_a + R_b$ $$ R = 9,08 + 18,52 = 27,60[ \Omega]$$
+	Korzystając z prawa przenoszenia niepewności $$u(R) =\sqrt{(u(R_{x_1}))^2 + (u(R_{x_2}))^2} = \sqrt{0,26^2 + 0,10^2} = 0,28[\Omega]$$
+	Ad. 5 Obliczamy wartość oporu dla połączenia równoległego $R = R_{x_1} + R_{x_2}$ ze wzoru $\frac{1}{R_{ab}} = \frac{1}{R_a} + \frac{1}{R_b}$ $$ \frac{1}{R} = \frac{1}{9,08} + \frac{1}{18,52} \hspace{10pt} R = \frac{1}{(\frac{1}{9,08} + \frac{1}{18,52})} \hspace{10pt} R=6,09[ \Omega]$$
+	Korzystając z prawa przenoszenia niepewności $$ u(R) = \sqrt{\left [\frac{u(R_{x_1})\cdot R_{x_2}^2}{(R_{x_1} + R_{x_2})^2} \right ]  ^2 + \left [\frac{u(R_{x_2})\cdot R_{x_1}^2}{(R_{x_1} + R_{x_2})^2} \right] ^2} =
+	 \sqrt{\left [\frac{0,26\cdot 18,52^2}{(9,08 + 18,52)^2} \right ]  ^2 + \left [\frac{0,10\cdot 9,08^2}{(9,08 + 18,52)^2} \right] ^2} =
+	  0,12\Omega$$
+	Ad. 6 Obliczamy wartość oporu dla połączenia mieszanego $R = R_{x_1} + R_{x_2}$ równolegle $+ R_{x_3}$ szeregowo korzystając z wyników obliczonych w poprzednim pkt. $$R = 6,09 + 33 = 39,09[\Omega]$$
+	 Korzystając z prawa przenoszenia niepewności $$u(R) =\sqrt{(u(R_{rownolegle}))^2 + (u(R_{x_3}))^2} = \sqrt{0,12^2 + 0,36^2} = 0,38[\Omega]$$
+	Ad. 7 Porównujemy dwie wielkości zmierzone
+	\begin{enumerate}
+		\item Dla połączenia szeregowego:
+		$$|\bar{R} - R_{obl}| = |26,59 - 27,60| = 1,01[\Omega]$$
+		$$U(\bar{R} - R_{obl}) = 2*\sqrt{u(\bar{R})^2 + u(R_{obl})^2} = 2*\sqrt{0,41^2 + 0,28^2} = 1[\Omega]$$ 
+		$$1,01 > 1 \hspace{10pt} |\bar{R} - R_{obl}| > U(\bar{R} - R_{obl})$$
+		\item Dla połączenia równoległego:
+		$$|\bar{R} - R_{obl}| = |5,83 - 6,09| = 0,26[\Omega]$$
+		$$U(\bar{R} - R_{obl}) = 2*\sqrt{u(\bar{R})^2 + u(R_{obl})^2} = 2*\sqrt{0,12^2 + 0,12^2} = 0,34[\Omega]$$ 
+		$$0,26 < 0,34 \hspace{10pt} |\bar{R} - R_{obl}| < U(\bar{R} - R_{obl})$$
+		\item Dla połączenia mieszanego:
+		$$|\bar{R} - R_{obl}| = |40,40 - 39,09| = 1,31[\Omega]$$
+		$$U(\bar{R} - R_{obl}) = 2*\sqrt{u(\bar{R})^2 + u(R_{obl})^2} = 2*\sqrt{0,38^2 + 0,27^2} = 0,94[\Omega]$$ 
+		$$1,31 > 0,94 \hspace{10pt} |\bar{R} - R_{obl}| > U(\bar{R} - R_{obl})$$
+	\end{enumerate}
+	\section{Wnioski}
+
+  
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{}
