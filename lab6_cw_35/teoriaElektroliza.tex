@@ -1,0 +1,114 @@
+\documentclass[a4paper,11pt]{article} % preambuła
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc} % utf8, cp1250
+\usepackage{pslatex}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage{algorithm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage{algpseudocode}
+\usepackage{pgfplots}
+\newgeometry{tmargin=1.5cm, bmargin=1.5cm, lmargin=1.5cm, rmargin=1.5cm}
+
+\begin{document}
+\section{Jakie są różnice w opisie przewodnictwa elektrycznego metali i
+elektrolitów? Opisz, na czym polega proces elektrolizy.}
+Charakterystyczną grupę przewodników prądu elektrycznego stanowią elektrolity. Są to przeważnie wodne roztwory zasad, kwasów i soli. Przy rozpuszczaniu kryształu wiązania jonowe pękają i atomy przechodzą do roztworu w postaci jonów poruszających się bezwładnie w roztworze. Jeśli przez roztwór ten przepuścimy prąd elektryczny, to ruch jonów staje się uporządkowany. Kationy zdążają do ujemnej elektrody, aniony do katody. Przepływowi prądu towarzyszy zobojętnianie jonów na elektrodach i wydzielanie się substancji na elektrodach. Proces ten nazywamy elektrolizą.
+
+W metalach elektrony przewodnictwa stanowią elektrony walencyjne poszczególnych atomów. W sieci krystalicznej odrywają się one od swoich atomów i zaczynają swobodnie poruszać się w całej objętości metalu, tworząc tzw. gaz elektronowy. Koncentracja elektronów przewodnictwa w metalach nie zależy od temperatury.
+
+Elektrolity, podobnie jak metale, przewodzą prąd elektryczny. Jednak mechanizm tego zjawiska w elektrolitach jest inny niż w metalach. W elektrolitach nośnikiem ładunku są jony obu znaków. Oznacza to przede wszystkim przemieszczanie się mas dziesiątki i setki tysięcy razy przewyższających masę elektronu. Natężenie, przewodność właściwa roztworu zależą od wielkości jonów. 
+
+Oporność metali pod wpływem ogrzewania rośnie, a elektrolitów maleje. 
+\section{Podaj prawa elektrolizy Faradaya.}
+I prawo:\\
+Masa substancji wydzielonej podczas elektrolizy jest proporcjonalna do ładunku, który przepłynął przez elektrolit. 
+$$m = qk=Itk$$
+gdzie: \\
+$k$ - równoważnik elektrochemiczny\\
+$q$ - ładunek elektryczny\\
+$l$ - natężenie prądu elektrycznego\\
+$t$ - czas.
+
+II prawo:\\
+Ładunek $q$ potrzebny do wydzielenia lub wchłonięcia masy m jest dany zależnością
+$$q = \frac{Fmz}{M}$$
+gdzie:\\
+$F$ - stała Faradaya\\
+$z$ - ładunek jonu\\
+$M$ - masa molowa jonu.
+
+\section{Jaką masę substancji wydzieli podczas przepływu przez elektrolit prąd
+o natężeniu 1 ampera w czasie jednej sekundy? Podaj nazwę tej wielkości}
+Masa substancji wytworzona podczas przepływu przez elektrolit prądu o natężeniu 1 ampera w czasie jednej sekundy wynosi k, gdzie k to równoważnik elektrochemiczny.
+Obliczymy to korzystając z pierwszego prawa Faradaya
+$$ k- nieznane, I = 1A, t = 1s$$
+$$ m = kIt = k \cdot 1 \cdot 1 [g] = k [g] $$
+Jednostką równoważnika elektrochemicznego jest $\frac{kg}{C}$ - kilogram przez kulomb.
+
+Równoważnik chemiczny to wartość stosowana w elektrochemii równa masie substancji wydzielonej przy przepływie przez elektrolit ładunku elektrycznego 1C.
+\section{Wyjaśnij na przykładzie pojęcia: masa molowa, wartościowość, kation,
+anion, katoda, anoda.}
+Masa molowa - masa jednego mola substancji chemicznej. Jednostką masy molowej jest $\frac{kg}{mol}$.\\
+Dla przykładu obliczmy masę molową związku $H_2SO_4$. 
+$$m_{H_2SO_4} = 2 \cdot 1 + 32 + 4*16 = 98 \frac{g}{mol}$$
+
+Wartościowość - cecha pierwiastków chemicznych oraz jonów określająca liczbę wiązań chemicznych, którymi dany pierwiastek lub jon może łączyć się z innymi.
+Dla przykładu chcąc obliczyć wartościowość siarki związku $H_2SO_4$
+$$H=1, O=-2\text{, więc, aby wyszło zero:} 2\cdot 1 + S + 4\cdot -2 = 0$$
+$$ 2 + S - 8 = 0 \rightarrow S = 6 $$
+
+Kation - jon o ładunku dodatnim, w którym występuje nadmiar protonów w stosunku do elektronów. Podczas elektrolizy kation podąża do elektrody ujemnej, zwanej katodą.
+
+Anion - jon o ładunku ujemnym. Podczas elektrolizy anion podąża do elektrody dodatniej, zwanej anodą.
+
+Katoda - elektroda, przez którą z urządzenia wypływa prąd elektryczny. W odbiornikach prądu elektrycznego katoda jest elektrodą ujemną, a w źródłach prądu - dodatnią.
+
+Anoda - elektroda, przez którą prąd elektryczny wpływa do urządzenia. W odbiornikach prądu elektrycznego anoda jest elektrodą dodatnią, a w źródłach prądu - ujemną.
+
+\section{Zdefiniuj pojęcia: 1 amper, 1 wolt i 1 kulomb. Wyraź te jednostki za
+pomocą jednostek podstawowych układu SI.}
+
+Amper - jednostka natężenia prądu elektrycznego. Jest podstawową jednostką układu SI. Najczęściej oznaczana symbolem A.\\
+1 amper to niezmieniający się prąd elektryczny, który płynąc ww dwóch równoległych, prostoliniowych, nieskończenie długich przewodach o znikomo małym przekroju kołowym, umieszczonych w próżni w odległości 1m od siebie, spowodowałby wzajemne oddziaływanie przewodów na siebie z siłą równą $2\cdot 10^{-7} N$ na każdy metr długości przewodu.
+
+Wolt - jednostka potencjału elektrycznego, napięcia elektrycznego i siły elektromotorycznej. W jednostkach SI: 
+$$1V = \frac{1kg\cdot m^2}{1A\cdot s^2}$$
+Najczęściej oznaczany symbolem $V$. \\
+1 wolt jest różnicą potencjałów elektrycznych pomiędzy dwoma punktami przewodu liniowego, w którym płynie niezmieniający się prąd o natężeniu jednego ampera, zaś moc pobierana pomiędzy tymi punktami jest równa jednemu watowi.
+
+Kulomb - jednostka ładunku elektrycznego. W jednostkach SI:
+$$1C = 1A\cdot s$$
+Najczęściej oznaczany symbolem $C$.\\
+1 kulomb to ładunek elektryczny przenoszony w czasie 1 sekundy przez prąd o natężeniu wynoszącym 1 amper.
+
+\section{W jaki sposób (szeregowo czy równolegle) należy włączyć amperomierz do
+obwodu? Dlaczego?}
+Amperomierz należy włączyć do obwodu szeregowo, ponieważ mierzy natężenie prądu płynącego w obwodzie. Jego oporność wewnętrzna jest bardzo mała, więc spadek napięcia na nim jest minimalny. Jeśli podłączylibyśmy amperomierz równolegle spowodowałby zwarcie w tym obwodzie.
+
+\section{Ile atomów miedzi osadzi się na elektrodzie po przepłynięciu przez
+elektrolit ładunku elektrycznego równego stałej Faradaya?}
+Stała Faradaya : $9,648533289 * 10^4 \frac{C}{mol}$
+$$m = 0,3294 * 9,648533289 * 10^4 = 3,1782268653966 * 10^4 = 31782,27mg = 31,78g/mol$$
+$$1u - 1,66 * 10^{-24}$$
+$$63,546 u - 105,486 * 10^{-24} g$$
+
+$$1 \text{ atom miedzi} - 105,486 * 10^{-24} g $$
+$$x \text{ atomów miedzi} - 31,78 g $$
+
+
+Zatem na elektrodzie osadzi się $3.0127 * 10^{23}$ atomów miedzi.
+\section{Ładunek elektryczny Q jest iloczynem natężenia prądu I oraz czasu t:
+Q = I t. Korzystając z prawa przenoszenia niepewności oszacuj niepewność
+wyznaczenia ładunku z pomiarów I i t. }
+
+$I$ oraz $t$ - zmierzone.\\
+Znając wartości niepewności pomiaru $I - u(I)$ oraz $t - u(t)$ możemy obliczyć niepewność wyznaczania ładunku z pomiarów:
+$$u_c(Q) = \sqrt{\sum_k [\frac{dy}{dx}u(x_k)]^2} = \sqrt{\frac{d[Q(I,t)]}{dt} + \frac{d[Q(I,t)]}{dI}} = \sqrt{[t*u(I)]^2 + [I*d(t)]^2}$$
+
+\end{document}
