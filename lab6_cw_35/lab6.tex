@@ -1,0 +1,89 @@
+\documentclass[a4paper,10pt,twoside]{article}
+
+\usepackage{amssymb}
+
+\usepackage{amsthm}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{caption}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{makecell}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+\begin{document}
+	
+\section{}
+da
+\newpage
+\section{title}
+\newpage
+\section{title}
+\newpage
+\section{Opracowanie wyników}
+\noindent
+Masa miedzi wydzielonej podczas elektrolizy na katodzie
+$$m = 0,301g$$
+Zmiana masy anod podczas elektrolizy
+$$M = 0,298g$$
+Oblicz wartość współczynnika elektrochemicznego wykorzystując wzór $k = \frac{m}{I\cdot t}$
+$$k = \frac{0,301}{0,5*30*60}=0,000334[\frac{g}{C}]$$
+Korzystając z otrzymanej wartości współczynnika $k$ oblicz, przy pomocy wzoru $F = \frac{\mu}{w\cdot k}$
+$$F=\frac{63.58}{2*0,000334} = 95179,64[\frac{C/mol}]$$
+Posługując się wyznaczoną doświadczalnie stałą Faradaya oblicz wielkość ładunku elementarnego
+$$e = \frac{F}{N_a} = \frac{95179,64}{6,02*10^{23}} = 1.58*10^{-19}[C]$$
+
+\paragraph*{OBLICZANIE NIEPEWNOŚCI POMIAROWEJ}
+\noindent
+\newline
+$$m = 0,301g$$
+Niepewność pomiaru masy miedzi wydzielonej podczas elektrolizy przyjmujemy jako\\
+$$u(m) = 0,00058g$$
+Oblicz niepewność wartości ładunku elektrycznego, który przepłynął przez elektrolit. W tym celu obliczamy niepewność pomiaru natężenia prądu wiedząc, że jest ona równa 
+$$u(I) = (\text{klasa amperomierza * zakres / 100}) = 0,5 * 0,75 / 100 = 0,0038[A]$$
+Oszacuj niepewność pomiaru czasu. W zależności od oceny wielkości tej niepewności można uwzględnić ją w dalszych obliczeniach albo pominąć ze względu na fakt, że jest zaniedbywalnie mała. 
+\\W naszym przypadku $u(t) = 1s \hspace{10pt} \frac{u(t)}{t} = \frac{1}{1800} = 0,056\%$\\
+Będziemy uwzględniać tę niepewność.
+
+\vspace{5pt}
+\noindent Ponieważ równoważnik elektrochemiczny miedzi obliczyliśmy ze wzoru $k = \frac{m}{I\cdot t}$ w którym występują tylko operacje mnożenia i dzielenia, złożona niepewność względna jest równa 
+$$\frac{u(k)}{k} = \sqrt{\left[\frac{u(m)}{m}\right]^2 + \left[\frac{u(I)}{I}\right]^2 + \left[\frac{u(t)}{t}\right]^2} = \sqrt{\left[\frac{0,00058}{0,301}\right]^2 + \left[\frac{0,0038}{0,5}\right]^2 + \left[\frac{1}{1800}\right]^2} = 0,0079$$
+$$u(k) = 0,0079 * 0,000334 = 2,6*10^{-6}[\frac{g}{C}] $$
+Stała Faradaya oraz ładunek elementarny obliczane są z wzorów, w których obliczone k mnożone lub dzielone jest przez tablicowe stałe, których niepewności są pomijalnie małe więc 
+$$
+\frac{u(F)}{F} = \frac{u(k)}{k} \hspace{10pt} \frac{u(e)}{e} = \frac{u(k)}{k}
+$$
+$$u(f) = F\cdot\frac{u(k)}{k} = 95179,64*0,0079 = 751,92[\frac{C}{mol}]\hspace{10pt} u(e) = e\cdot\frac{u(k)}{k} = 1,58*10^{-19}*0,0079 = 1,2*10^{-21}[C]$$
+\newpage
+\paragraph*{Zestawienie wyników} Wszystkie wartości zostały zebrane w tabeli
+
+
+\begin{table}[!htb]
+
+\begin{tabular}{|c|c|c|c|c|c|}
+	\hline
+	&wartość tablicowa & wartość wyznaczona & różnica & niepewność & niepewność względna [\%] \\
+	\hline
+	k&0,0003294 &0,000334 & $5*10^{-6}$&$2,6*10^{-6}$&0,79\\
+	\hline 
+	F&96500&95179,64&1320,36&751,92&0,79\\
+	\hline
+	e&$1,6*10^{-19}$&$1,58*10^{-19}$&$2*10^{-21}$&$1,2*10^{-21}$&0,79\\
+	\hline
+	
+\end{tabular}
+\end{table}
+
+\paragraph*{Porównanie mas blaszek}:\newline
+Zmiana mas na anodach wyniosła 0,297g\\
+Niepewność $u(m) = 0,00058g$\\
+Sprawdzamy czy ubytek masy na anodach jest równy masie wytworzonej miedzi w granicach niepewności. Będzie to prawdą gdy $|y_1 - y_2| < U(y_1-y_2)$
+$$|0,301-0,297| < 2*\sqrt{2*0,00058^2}$$
+$$0,004 < 0,0016$$
+Oznacza to, że ubytek masy nie jest równy masie wytworzonej miedzi w granicach niepewności.
+\section{Wnioski}
+\end{document}
