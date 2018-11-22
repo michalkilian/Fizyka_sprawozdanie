@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.15)  20 NOV 2018 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.15)  22 NOV 2018 01:08
 entering extended mode
 **./lab6.tex
 (lab6.tex
@@ -764,7 +764,12 @@ cmsy/m/n/10  \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 0\OML/cmm
 sy/m/n/10  \OT1/cmr/m/n/10 10[][\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 ]
  []
 
-[4] [5] (lab6.aux) ) 
+[4]
+Overfull \hbox (23.07141pt too wide) in paragraph at lines 67--79
+[][] 
+ []
+
+[5] (lab6.aux) ) 
 Here is how much of TeX's memory you used:
  5328 strings out of 493305
  75739 string characters out of 3128932
@@ -773,19 +778,19 @@ Here is how much of TeX's memory you used:
  9955 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,38p,273b,209s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Mateusz\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Mateusz\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Mateusz\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk><C:/Users/Mateusz/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
-s/Mateusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb><C:/Users/Mateusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb><C:/Users/Mateusz/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mateusz/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Mateusz/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mateus
-z/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on lab6.pdf (5 pages, 116742 bytes).
+ <C:\Users\Mateusz\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecbx1000.pk> <C:\Users\Mateusz\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Mateusz\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk><C:/Users/Mateusz/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ma
+teusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Users/Mateusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Users/Mateusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mateusz/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Mateusz/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mateusz/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on lab6.pdf (5 pages, 117102 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
